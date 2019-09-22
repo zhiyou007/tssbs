@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		56B7F778FD9A8865D492E369 /* Pods_Tssbs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32C48E113A23A56EBDE4505 /* Pods_Tssbs.framework */; };
+		6C2347D72336636D00AF095C /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2347D62336636D00AF095C /* iflyMSC.framework */; };
+		6C2347D9233663C500AF095C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2347D8233663C500AF095C /* libz.tbd */; };
+		6C2347DB233663CF00AF095C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2347DA233663CF00AF095C /* AVFoundation.framework */; };
+		6C2347DD233664AA00AF095C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2347DC233664AA00AF095C /* SystemConfiguration.framework */; };
+		6C2347DF233664CA00AF095C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2347DE233664CA00AF095C /* Foundation.framework */; };
+		6C2347E1233664DC00AF095C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2347E0233664DC00AF095C /* CoreTelephony.framework */; };
+		6C2347E3233664EC00AF095C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2347E2233664EC00AF095C /* AudioToolbox.framework */; };
+		6C2347E5233664F600AF095C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2347E4233664F600AF095C /* UIKit.framework */; };
+		6C2347E72336650600AF095C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2347E62336650600AF095C /* CoreLocation.framework */; };
+		6C2347E92336651B00AF095C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2347E82336651B00AF095C /* QuartzCore.framework */; };
+		6C2347EB2336652900AF095C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2347EA2336652900AF095C /* CoreGraphics.framework */; };
+		6C2347ED2336653900AF095C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2347EC2336653900AF095C /* libc++.tbd */; };
 		6C55548F2333BB7300CA49D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C55548E2333BB7300CA49D2 /* AppDelegate.m */; };
 		6C5554922333BB7300CA49D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5554912333BB7300CA49D2 /* ViewController.m */; };
 		6C5554952333BB7300CA49D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C5554932333BB7300CA49D2 /* Main.storyboard */; };
@@ -17,6 +29,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C2347D62336636D00AF095C /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		6C2347D8233663C500AF095C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6C2347DA233663CF00AF095C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6C2347DC233664AA00AF095C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6C2347DE233664CA00AF095C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C2347E0233664DC00AF095C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		6C2347E2233664EC00AF095C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6C2347E4233664F600AF095C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6C2347E62336650600AF095C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6C2347E82336651B00AF095C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6C2347EA2336652900AF095C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6C2347EC2336653900AF095C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		6C55548A2333BB7300CA49D2 /* Tssbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tssbs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C55548D2333BB7300CA49D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C55548E2333BB7300CA49D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +63,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C2347ED2336653900AF095C /* libc++.tbd in Frameworks */,
+				6C2347EB2336652900AF095C /* CoreGraphics.framework in Frameworks */,
+				6C2347E92336651B00AF095C /* QuartzCore.framework in Frameworks */,
+				6C2347E72336650600AF095C /* CoreLocation.framework in Frameworks */,
+				6C2347E5233664F600AF095C /* UIKit.framework in Frameworks */,
+				6C2347E3233664EC00AF095C /* AudioToolbox.framework in Frameworks */,
+				6C2347E1233664DC00AF095C /* CoreTelephony.framework in Frameworks */,
+				6C2347DF233664CA00AF095C /* Foundation.framework in Frameworks */,
+				6C2347DD233664AA00AF095C /* SystemConfiguration.framework in Frameworks */,
+				6C2347DB233663CF00AF095C /* AVFoundation.framework in Frameworks */,
+				6C2347D9233663C500AF095C /* libz.tbd in Frameworks */,
+				6C2347D72336636D00AF095C /* iflyMSC.framework in Frameworks */,
 				56B7F778FD9A8865D492E369 /* Pods_Tssbs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,7 +85,19 @@
 		138DED57FC4F52BC943A54E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6C2347EC2336653900AF095C /* libc++.tbd */,
+				6C2347EA2336652900AF095C /* CoreGraphics.framework */,
+				6C2347E82336651B00AF095C /* QuartzCore.framework */,
+				6C2347E62336650600AF095C /* CoreLocation.framework */,
+				6C2347E4233664F600AF095C /* UIKit.framework */,
+				6C2347E2233664EC00AF095C /* AudioToolbox.framework */,
+				6C2347E0233664DC00AF095C /* CoreTelephony.framework */,
+				6C2347DE233664CA00AF095C /* Foundation.framework */,
+				6C2347DC233664AA00AF095C /* SystemConfiguration.framework */,
+				6C2347DA233663CF00AF095C /* AVFoundation.framework */,
+				6C2347D8233663C500AF095C /* libz.tbd */,
 				C32C48E113A23A56EBDE4505 /* Pods_Tssbs.framework */,
+				6C2347D62336636D00AF095C /* iflyMSC.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -360,6 +408,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63WZ7S396T;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Tssbs/PrefixHeader.pch;
 				INFOPLIST_FILE = Tssbs/Info.plist;
@@ -380,6 +433,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63WZ7S396T;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Tssbs/PrefixHeader.pch;
 				INFOPLIST_FILE = Tssbs/Info.plist;

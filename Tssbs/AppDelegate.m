@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "IFlyMSC/IFlyMSC.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    //Appid是应用的身份信息，具有唯一性，初始化时必须要传入Appid。
+    NSString *initString = [[NSString alloc] initWithFormat:@"appid=%@", @"5a4e01f9"];
+    [IFlySpeechUtility createUtility:initString];
+
+    
+    
     return YES;
 }
 
